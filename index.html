@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./public/build/tailwind.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-zinc-950">
+    <div
+      class="md:grid md:grid-cols-12 md:grid-flow-dense md:h-full xl:container xl:mx-auto"
+    >
+      <!--navigation-->
+      <nav
+        class="flex bg-zinc-900 text-white justify-between items-center p-3.5 m-6 mb-0 rounded-2xl md:col-span-12 md:mb-6"
+      >
+        <a href="#" class="text-gray-300"
+          >Asmr<span class="font-semibold text-white">Prog</span></a
+        >
+        <div class="text-xl">
+          <i class="bx bx-menu cursor-pointer"></i>
+        </div>
+      </nav>
+      <!--profile section-->
+      <div class="p-6 mb-2 md:col-span-4 md:p-0 md:pl-6 md:mb-0 lg:col-span-3">
+        <img
+          class="w-full h-full object-cover rounded-3xl"
+          src="./src/assets/photo_۲۰۲۲-۱۲-۱۶_۲۲-۲۳-۱۴.jpg"
+          alt="profile"
+        />
+      </div>
+      <!--info section-->
+      <div
+        class="flex flex-col gap-y-8 px-6 mb-8 md:col-span-5 md:justify-between md:mb-0 lg:col-span-3"
+      >
+        <div class="flex gap-x-4 text-white md:flex-col md:gap-y-6">
+          <div
+            class="flex items-center justify-between bg-zinc-900 p-3.5 rounded-2xl flex-1"
+          >
+            <p class="text-sm text-gray-300">Name:</p>
+            <p>Bahamin Hoseinpour</p>
+          </div>
+          <div
+            class="flex items-center justify-between bg-zinc-900 p-3.5 rounded-2xl flex-1"
+          >
+            <p class="text-sm text-gray-300">Based:</p>
+            <p>Iran</p>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-around text-4xl text-white rounded-2xl bg-zinc-900 p-2"
+        >
+          <span>
+            <i
+              class="bx bxl-instagram cursor-pointer hover:text-[#e4405f] transition-all duration-300"
+            ></i>
+          </span>
+          <span>
+            <i
+              class="bx bxl-telegram cursor-pointer hover:text-[#24A1DE] transition-all duration-300"
+            ></i>
+          </span>
+          <span>
+            <i
+              class="bx bxl-whatsapp cursor-pointer hover:text-[#25D366] transition-all duration-300"
+            ></i>
+          </span>
+          <span>
+            <i
+              class="bx bxl-twitter cursor-pointer hover:text-[#1DA1F2] transition-all duration-300"
+            ></i>
+          </span>
+          <span>
+            <i
+              class="bx bxl-github cursor-pointer hover:text-[#9c9c9ca2] transition-all duration-300"
+            ></i>
+          </span>
+        </div>
+      </div>
+      <!-- hero section -->
+      <div
+        class="flex flex-col gap-y-4 bg-zinc-900 mx-6 p-3.5 rounded-2xl mt-6 mb-8 md:col-span-12 md:flex-row md:justify-between md:items-center md:gap-x-8 lg:col-span-6 lg:flex-col lg:items-stretch"
+      >
+        <p
+          class="text-white font-bold text-xl text-center leading-10 lg:text-3xl"
+        >
+          Bringin Your Ideas To Life Through Fronted Design
+        </p>
+        <button
+          class="bg-sky-600 p-2 text-white font-semibold rounded-xl hover:bg-sky-500 transition-all duration-300 cursor-pointer md:flex-1"
+        >
+          Hire Now
+        </button>
+      </div>
+      <!-- states section -->
+      <div
+        class="flex gap-x-2 m-6 mb-8 md:col-span-3 md:flex-col md:gap-y-4 md:pr-4 md:m-0 lg:col-span-6 lg:flex-row lg:gap-x-4 lg:ml-0 lg:p-8"
+      >
+        <div
+          class="flex flex-col flex-1 bg-emerald-500 text-white p-4 rounded-2xl justify-center items-center text-center"
+        >
+          <span class="text-4xl font-bold mb-2">+2</span>
+          <span class="text-sm">Years Experience</span>
+        </div>
+        <div
+          class="flex flex-col flex-1 bg-amber-500 text-white p-4 rounded-2xl justify-center items-center text-center"
+        >
+          <span class="text-4xl font-bold mb-2">+54</span>
+          <span class="text-sm">Projects</span>
+        </div>
+        <div
+          class="flex flex-col flex-1 bg-red-500 text-white p-4 rounded-2xl justify-center items-center text-center"
+        >
+          <span class="text-4xl font-bold mb-2">+40</span>
+          <span class="text-sm">Clients</span>
+        </div>
+      </div>
+      <!-- portfolio section -->
+      <div
+        class="flex flex-col gap-y-6 mx-6 mb-8 rounded-2xl p-3.5 bg-zinc-900 md:col-span-12 lg:col-span-6 lg:col-start-7 lg:row-start-2 lg:mb-0"
+      >
+        <div class="flex justify-between items-center">
+          <h3 class="text-xl text-white font-semibold">My Portfolio</h3>
+          <a
+            class="text-gray-300 text-xl hover:text-white transition-all duration-300"
+            href="#"
+            >See All</a
+          >
+        </div>
+        <div class="grid grid-cols-2 gap-4 md:grid-cols-4 lg:h-full">
+          <div class="group relative">
+            <img
+              class="rounded-2xl object-cover transition-opacity duration-300 group-hover:opacity-40 h-full"
+              src="./src/assets/potfolio1.jpg"
+              alt=""
+            />
+            <a
+              class="absolute inset-0 items-center justify-center font-semibold text-white hidden group-hover:flex"
+              href="#"
+              >See Project</a
+            >
+          </div>
+          <div class="group relative">
+            <img
+              class="rounded-2xl object-cover transition-opacity duration-300 group-hover:opacity-40 h-full"
+              src="./src/assets/portfolio2.jpg"
+              alt=""
+            />
+            <a
+              class="absolute inset-0 items-center justify-center font-semibold text-white hidden group-hover:flex"
+              href="#"
+              >See Project</a
+            >
+          </div>
+          <div class="group relative">
+            <img
+              class="rounded-2xl object-cover transition-opacity duration-300 group-hover:opacity-40 h-full"
+              src="./src/assets/portfolio3.jpg"
+              alt=""
+            />
+            <a
+              class="absolute inset-0 items-center justify-center font-semibold text-white hidden group-hover:flex"
+              href="#"
+              >See Project</a
+            >
+          </div>
+          <div class="group relative">
+            <img
+              class="rounded-2xl object-cover transition-opacity duration-300 group-hover:opacity-40 h-full"
+              src="./src/assets/portfolio4.jpg"
+              alt=""
+            />
+            <a
+              class="absolute inset-0 items-center justify-center font-semibold text-white hidden group-hover:flex"
+              href="#"
+              >See Project</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- About section -->
+      <div
+        class="flex flex-col gap-y-4 bg-zinc-900 mx-6 mb-8 p-3.5 rounded-2xl md:col-span-12"
+      >
+        <div class="flex items-center justify-between">
+          <h3 class="text-white font-semibold text-xl">About</h3>
+          <a
+            class="text-xl text-gray-300 hover:text-white transition-all duration-300"
+            href="#"
+            >Resume</a
+          >
+        </div>
+        <p class="text-gray-400">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ut!
+          Nulla sunt eos provident delectus eius quaerat necessitatibus, autem
+          magni! Officiis architecto unde facere facilis, aperiam cum cumque
+          earum porro.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
